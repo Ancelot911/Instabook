@@ -1,0 +1,5 @@
+Pour commencer, je me suis rendu sur Mocodo afin de visualiser le MCD pour avoir une meilleure compréhension et vision du projet.
+
+Par la suite, je me suis directment lancé dans la création des migrations qui c'est bien passé. Après je suis passé sur les Models où j'ai eu plus de difficultés parce que je me perdais dans les relations mais le MCD m'a bien aidé sur ce point. Puis j'ai fini par les factories que j'ai faites avec l'aide des corrections et des enregistrements des cours.
+
+J'arrive à un résultat où il n'y qu'un seul test qui ne passe pas (photo user is not created for user who doesn't belong to same group) et je ne comprend pas pourquoi. Lorsque j'essaye de faire quelque chose, j'ai certains tests qui ne fonctionne plus donc j'ai du me rater quelque part mais je ne sais pas où. J'ai laissé en commentaire dans le Model PhotoUser ce qui casse tout. Il y a aussi le test "tag has pivot class for photos" qui fonctionne une fois sur deux.
